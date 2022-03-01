@@ -1,0 +1,116 @@
+
+'/':
+    homepage
+
+'/about':
+    about.html
+
+'/upload-howto':
+    upload-howto.html
+
+'/upload':
+    upload.html
+
+'/fileparse':
+    parse.parseData
+
+'/downloadlog':
+    downloaf logs
+    
+'/userauth':
+    DB filter the auth user
+
+'/login':
+    github authorize
+
+'/callback':
+    github to callback for login
+
+'/islogin':
+    check to see login
+
+'/logout':
+    logout
+
+'/searchTips':
+    searchTips.html
+
+'/summary/<expID>/<rank>/<compare>/<threads>/'
+'/summary/<expID>/<rank>/<compare>/'
+'/summary/<expID>/<rank>/':
+    modelTiming.html
+
+'/summaryQuery/<int:expID>/<rank>/<getFullStats>'
+'/summaryQuery/<int:expID>/<rank>/':
+    summary summaryQuery
+
+'/flamegraph/<expid>/<rank>/':
+    flamegraph
+
+'/scorpio/<int:mexpid>':
+    scorpio profile page
+
+'/exp-details/<int:mexpid>':
+    experiments profile page
+
+'/exp-details-old/<int:mexpid>':
+    old experiments profile page
+
+'/useralias/<user>':
+    add user alias page
+
+'/useraliasdelete':
+    delete user alias
+
+'/useraliasadd':
+    add user alias
+
+'/note/<int:expID>':
+    add notes to the experiments
+
+'/search/<searchQuery>'
+'/search/':
+    search
+
+'/advsearch/<searchQuery>':
+    goes back to search
+
+'/ajax/search/<searchTerms>/<int:mlimit>/<orderBy>/<ascDsc>'
+'/ajax/search/<searchTerms>/<int:mlimit>/<orderBy>'
+'/ajax/search/<searchTerms>/<int:mlimit>'
+'/ajax/search/<searchTerms>':
+    search
+
+'/ajax/specificSearch/<query>/<whitelist>'
+'/ajax/specificSearch/<query>':
+    specific search
+
+'/ajax/getDistinct/<entry>':
+    get distinct machine or user
+
+'/platforms/<platform>':
+    get all machines
+
+'/users/<user>':
+    get all user
+
+'/benchmarks/<keyword>':
+    get all benchmarks
+
+'/ajax/similarDistinct/<keyword>':
+    predicts user search keyword
+
+'/svg/runtime/<int:expid>':
+    generates an svg graph of runtime information
+
+'/atmos/<expids>':
+    atmosphere model component graph and compare atmos graph
+
+'/xmlviewer/<int:mexpid>/<mname>':
+    select xml data of the experiment profile
+
+'/nmlviewer/<int:mexpid>/<mname>':
+    select nml viewer data of the experiment profile
+
+'/rcviewer/<int:mexpid>/<mname>':
+    select rc viewer data of the experiment profile
